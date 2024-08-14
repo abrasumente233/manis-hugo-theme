@@ -1,6 +1,7 @@
 {{ partial "header" . }}
 <article>
 	<header>{{ partial "title" . }}</header>
+	{{ .TableOfContents }}
 	{{ .Content }}
 </article>
 <nav class="no-print post-nav">
