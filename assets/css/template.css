@@ -157,6 +157,8 @@ ol ul {
 li {
   margin-bottom: .5rem;
   margin-left: .5rem;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 li > p {
   margin-bottom: .3rem;
