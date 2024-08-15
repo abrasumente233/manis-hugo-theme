@@ -206,15 +206,15 @@ code {
   border: 1px solid #e1e1e1;
   border-radius: 4px;
   font-family: 'Fira Mono', monospace;
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
 }
 pre > code {
   display: block;
   padding: 1rem 1.5rem;
-  white-space: pre-wrap;
   background: #2b303b;
   color: #c0c5ce;
   font-family: 'Fira Mono', monospace;
-  overflow-wrap: break-word;
 }
 
 /* #Tables
